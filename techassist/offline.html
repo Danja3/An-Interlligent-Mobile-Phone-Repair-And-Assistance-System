@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#27408b">
+<title>You're offline — TechAssist</title>
+<style>
+  body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#fbf7f0;color:#241c14;padding:24px}
+  .card{max-width:28rem;text-align:center}
+  .badge{width:64px;height:64px;border-radius:18px;background:#27408b;color:#e0a82e;
+    display:inline-flex;align-items:center;justify-content:center;margin-bottom:18px}
+  h1{margin:0 0 8px}p{color:#6b5d4d;margin:0 0 22px}
+  button{border:0;cursor:pointer;background:#27408b;color:#fff;font-weight:600;padding:12px 22px;border-radius:10px}
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
+    <h1>You're offline</h1>
+    <p>TechAssist needs a connection to diagnose your phone and load technicians. Check your network and try again.</p>
+    <button onclick="location.reload()">Try again</button>
+  </div>
+</body>
+</html>

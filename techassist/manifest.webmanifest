@@ -1,0 +1,15 @@
+{
+  "name": "TechAssist — Phone Diagnosis & Repair",
+  "short_name": "TechAssist",
+  "description": "Diagnose phone faults in seconds and find verified repair technicians near you in Northern Nigeria.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fbf7f0",
+  "theme_color": "#27408b",
+  "lang": "en",
+  "icons": [
+    { "src": "assets/img/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
